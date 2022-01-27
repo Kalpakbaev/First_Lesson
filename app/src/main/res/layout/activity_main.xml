@@ -43,4 +43,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Если проект для новичка норм то ставьте галочку"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        />
+
 </LinearLayout>
