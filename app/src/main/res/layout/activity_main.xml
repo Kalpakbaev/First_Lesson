@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -20,5 +21,23 @@
         android:textColor="@android:color/holo_orange_light"
         android:text="Hello GeekBrains!"
          />
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Как твое имя?"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:onClick="onclick"
 
+        />
 </LinearLayout>
